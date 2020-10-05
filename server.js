@@ -30,7 +30,7 @@ const storage = cloudinaryStorage({
 const parser = multer({ storage })
 
 const mongoUrl = process.env.MONGO_URL || "mongodb://locahost/webshop-plants"
-mongoose.connect(mongoUrl, { useNewParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.Promise = Promise
 
 const User = mongoose.model("User", {
