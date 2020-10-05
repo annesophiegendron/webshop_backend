@@ -10,6 +10,7 @@ import dotenv from 'dotenv'
 import cloudinary from 'cloudinary'
 import cloudinaryStorage from 'multer-storage-cloudinary'
 import multer from 'multer'
+import { stringify } from 'querystring'
 
 
 dotenv.config()
@@ -41,6 +42,10 @@ const User = mongoose.model("User", {
   email: {
     type: String, 
     unique: true
+  },
+  password: {
+    type: String,
+    required: true
   },
   accessToken: {
     type: String, 
