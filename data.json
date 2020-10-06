@@ -57,7 +57,7 @@
     "exposure": "luminous: Also appreciates a light shade. Avoid direct sunlight.",
     "watering": "frequent: let the soil dry on the surface before watering again.",
     "price": 520,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "exposure": "luminous: Avoid direct sunlight.",
     "watering": "frequent: reduce watering in winter.",
     "price": 750,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 7,
@@ -129,7 +129,7 @@
     "exposure": "luminous: Avoid direct sunlight.",
     "watering": "moderate: Let the soil dry one the surface before watering again.",
     "price": 650,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 12,
@@ -249,7 +249,7 @@
     "exposure": "luminous: Avoid direct sunlight.",
     "watering": "frequent: let the soil dry on the surface before watering again.",
     "price": 410 ,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 22,
